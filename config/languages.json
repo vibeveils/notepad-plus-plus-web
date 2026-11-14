@@ -1,0 +1,688 @@
+[
+{
+"name": "normal",
+"short": "Normal text",
+"long": "Normal text file",
+"id": "L_TEXT",
+"lexer": "null"
+},
+{
+"name": "php",
+"short": "PHP",
+"long": "PHP Hypertext Preprocessor file",
+"id": "L_PHP",
+"lexer": "phpscript"
+},
+{
+"name": "c",
+"short": "C",
+"long": "C source file",
+"id": "L_C",
+"lexer": "cpp"
+},
+{
+"name": "cpp",
+"short": "C++",
+"long": "C++ source file",
+"id": "L_CPP",
+"lexer": "cpp"
+},
+{
+"name": "cs",
+"short": "C#",
+"long": "C# source file",
+"id": "L_CS",
+"lexer": "cpp"
+},
+{
+"name": "objc",
+"short": "Objective-C",
+"long": "Objective-C source file",
+"id": "L_OBJC",
+"lexer": "objc"
+},
+{
+"name": "java",
+"short": "Java",
+"long": "Java source file",
+"id": "L_JAVA",
+"lexer": "cpp"
+},
+{
+"name": "rc",
+"short": "RC",
+"long": "Windows Resource file",
+"id": "L_RC",
+"lexer": "cpp"
+},
+{
+"name": "html",
+"short": "HTML",
+"long": "Hyper Text Markup Language file",
+"id": "L_HTML",
+"lexer": "hypertext"
+},
+{
+"name": "xml",
+"short": "XML",
+"long": "eXtensible Markup Language file",
+"id": "L_XML",
+"lexer": "xml"
+},
+{
+"name": "makefile",
+"short": "Makefile",
+"long": "Makefile",
+"id": "L_MAKEFILE",
+"lexer": "makefile"
+},
+{
+"name": "pascal",
+"short": "Pascal",
+"long": "Pascal source file",
+"id": "L_PASCAL",
+"lexer": "pascal"
+},
+{
+"name": "batch",
+"short": "Batch",
+"long": "Batch file",
+"id": "L_BATCH",
+"lexer": "batch"
+},
+{
+"name": "ini",
+"short": "ini",
+"long": "MS ini file",
+"id": "L_INI",
+"lexer": "props"
+},
+{
+"name": "nfo",
+"short": "NFO",
+"long": "MSDOS Style/ASCII Art",
+"id": "L_ASCII",
+"lexer": "null"
+},
+{
+"name": "udf",
+"short": "udf",
+"long": "User Defined language file",
+"id": "L_USER",
+"lexer": "user"
+},
+{
+"name": "asp",
+"short": "ASP",
+"long": "Active Server Pages script file",
+"id": "L_ASP",
+"lexer": "hypertext"
+},
+{
+"name": "sql",
+"short": "SQL",
+"long": "Structured Query Language file",
+"id": "L_SQL",
+"lexer": "sql"
+},
+{
+"name": "vb",
+"short": "Visual Basic",
+"long": "Visual Basic file",
+"id": "L_VB",
+"lexer": "vb"
+},
+{
+"name": "javascript",
+"short": "Embedded JS",
+"long": "Embedded JavaScript",
+"id": "L_JS_EMBEDDED",
+"lexer": "cpp"
+},
+{
+"name": "css",
+"short": "CSS",
+"long": "Cascade Style Sheets File",
+"id": "L_CSS",
+"lexer": "css"
+},
+{
+"name": "perl",
+"short": "Perl",
+"long": "Perl source file",
+"id": "L_PERL",
+"lexer": "perl"
+},
+{
+"name": "python",
+"short": "Python",
+"long": "Python file",
+"id": "L_PYTHON",
+"lexer": "python"
+},
+{
+"name": "lua",
+"short": "Lua",
+"long": "Lua source File",
+"id": "L_LUA",
+"lexer": "lua"
+},
+{
+"name": "tex",
+"short": "TeX",
+"long": "TeX file",
+"id": "L_TEX",
+"lexer": "tex"
+},
+{
+"name": "fortran",
+"short": "Fortran free form",
+"long": "Fortran free form source file",
+"id": "L_FORTRAN",
+"lexer": "fortran"
+},
+{
+"name": "bash",
+"short": "Shell",
+"long": "Unix script file",
+"id": "L_BASH",
+"lexer": "bash"
+},
+{
+"name": "actionscript",
+"short": "ActionScript",
+"long": "Flash ActionScript file",
+"id": "L_FLASH",
+"lexer": "cpp"
+},
+{
+"name": "nsis",
+"short": "NSIS",
+"long": "Nullsoft Scriptable Install System script file",
+"id": "L_NSIS",
+"lexer": "nsis"
+},
+{
+"name": "tcl",
+"short": "TCL",
+"long": "Tool Command Language file",
+"id": "L_TCL",
+"lexer": "tcl"
+},
+{
+"name": "lisp",
+"short": "Lisp",
+"long": "List Processing language file",
+"id": "L_LISP",
+"lexer": "lisp"
+},
+{
+"name": "scheme",
+"short": "Scheme",
+"long": "Scheme file",
+"id": "L_SCHEME",
+"lexer": "lisp"
+},
+{
+"name": "asm",
+"short": "Assembly",
+"long": "Assembly language source file",
+"id": "L_ASM",
+"lexer": "asm"
+},
+{
+"name": "diff",
+"short": "Diff",
+"long": "Diff file",
+"id": "L_DIFF",
+"lexer": "diff"
+},
+{
+"name": "props",
+"short": "Properties file",
+"long": "Properties file",
+"id": "L_PROPS",
+"lexer": "props"
+},
+{
+"name": "postscript",
+"short": "PostScript",
+"long": "PostScript file",
+"id": "L_PS",
+"lexer": "ps"
+},
+{
+"name": "ruby",
+"short": "Ruby",
+"long": "Ruby file",
+"id": "L_RUBY",
+"lexer": "ruby"
+},
+{
+"name": "smalltalk",
+"short": "Smalltalk",
+"long": "Smalltalk file",
+"id": "L_SMALLTALK",
+"lexer": "smalltalk"
+},
+{
+"name": "vhdl",
+"short": "VHDL",
+"long": "VHSIC Hardware Description Language file",
+"id": "L_VHDL",
+"lexer": "vhdl"
+},
+{
+"name": "kix",
+"short": "KiXtart",
+"long": "KiXtart file",
+"id": "L_KIX",
+"lexer": "kix"
+},
+{
+"name": "autoit",
+"short": "AutoIt",
+"long": "AutoIt",
+"id": "L_AU3",
+"lexer": "au3"
+},
+{
+"name": "caml",
+"short": "CAML",
+"long": "Categorical Abstract Machine Language",
+"id": "L_CAML",
+"lexer": "caml"
+},
+{
+"name": "ada",
+"short": "Ada",
+"long": "Ada file",
+"id": "L_ADA",
+"lexer": "ada"
+},
+{
+"name": "verilog",
+"short": "Verilog",
+"long": "Verilog file",
+"id": "L_VERILOG",
+"lexer": "verilog"
+},
+{
+"name": "matlab",
+"short": "MATLAB",
+"long": "MATrix LABoratory",
+"id": "L_MATLAB",
+"lexer": "matlab"
+},
+{
+"name": "haskell",
+"short": "Haskell",
+"long": "Haskell",
+"id": "L_HASKELL",
+"lexer": "haskell"
+},
+{
+"name": "inno",
+"short": "Inno Setup",
+"long": "Inno Setup script",
+"id": "L_INNO",
+"lexer": "inno"
+},
+{
+"name": "searchResult",
+"short": "Internal Search",
+"long": "Internal Search",
+"id": "L_SEARCHRESULT",
+"lexer": "searchResult"
+},
+{
+"name": "cmake",
+"short": "CMake",
+"long": "CMake file",
+"id": "L_CMAKE",
+"lexer": "cmake"
+},
+{
+"name": "yaml",
+"short": "YAML",
+"long": "YAML Ain't Markup Language",
+"id": "L_YAML",
+"lexer": "yaml"
+},
+{
+"name": "cobol",
+"short": "COBOL",
+"long": "COmmon Business Oriented Language",
+"id": "L_COBOL",
+"lexer": "COBOL"
+},
+{
+"name": "gui4cli",
+"short": "Gui4Cli",
+"long": "Gui4Cli file",
+"id": "L_GUI4CLI",
+"lexer": "gui4cli"
+},
+{
+"name": "d",
+"short": "D",
+"long": "D programming language",
+"id": "L_D",
+"lexer": "d"
+},
+{
+"name": "powershell",
+"short": "PowerShell",
+"long": "Windows PowerShell",
+"id": "L_POWERSHELL",
+"lexer": "powershell"
+},
+{
+"name": "r",
+"short": "R",
+"long": "R programming language",
+"id": "L_R",
+"lexer": "r"
+},
+{
+"name": "jsp",
+"short": "JSP",
+"long": "JavaServer Pages script file",
+"id": "L_JSP",
+"lexer": "hypertext"
+},
+{
+"name": "coffeescript",
+"short": "CoffeeScript",
+"long": "CoffeeScript file",
+"id": "L_COFFEESCRIPT",
+"lexer": "coffeescript"
+},
+{
+"name": "json",
+"short": "json",
+"long": "JSON file",
+"id": "L_JSON",
+"lexer": "json"
+},
+{
+"name": "javascript.js",
+"short": "JavaScript",
+"long": "JavaScript file",
+"id": "L_JAVASCRIPT",
+"lexer": "cpp"
+},
+{
+"name": "fortran77",
+"short": "Fortran fixed form",
+"long": "Fortran fixed form source file",
+"id": "L_FORTRAN_77",
+"lexer": "f77"
+},
+{
+"name": "baanc",
+"short": "BaanC",
+"long": "BaanC File",
+"id": "L_BAANC",
+"lexer": "baan"
+},
+{
+"name": "srec",
+"short": "S-Record",
+"long": "Motorola S-Record binary data",
+"id": "L_SREC",
+"lexer": "srec"
+},
+{
+"name": "ihex",
+"short": "Intel HEX",
+"long": "Intel HEX binary data",
+"id": "L_IHEX",
+"lexer": "ihex"
+},
+{
+"name": "tehex",
+"short": "Tektronix extended HEX",
+"long": "Tektronix extended HEX binary data",
+"id": "L_TEHEX",
+"lexer": "tehex"
+},
+{
+"name": "swift",
+"short": "Swift",
+"long": "Swift file",
+"id": "L_SWIFT",
+"lexer": "cpp"
+},
+{
+"name": "asn1",
+"short": "ASN.1",
+"long": "Abstract Syntax Notation One file",
+"id": "L_ASN1",
+"lexer": "asn1"
+},
+{
+"name": "avs",
+"short": "AviSynth",
+"long": "AviSynth scripts files",
+"id": "L_AVS",
+"lexer": "avs"
+},
+{
+"name": "blitzbasic",
+"short": "BlitzBasic",
+"long": "BlitzBasic file",
+"id": "L_BLITZBASIC",
+"lexer": "blitzbasic"
+},
+{
+"name": "purebasic",
+"short": "PureBasic",
+"long": "PureBasic file",
+"id": "L_PUREBASIC",
+"lexer": "purebasic"
+},
+{
+"name": "freebasic",
+"short": "FreeBasic",
+"long": "FreeBasic file",
+"id": "L_FREEBASIC",
+"lexer": "freebasic"
+},
+{
+"name": "csound",
+"short": "Csound",
+"long": "Csound file",
+"id": "L_CSOUND",
+"lexer": "csound"
+},
+{
+"name": "erlang",
+"short": "Erlang",
+"long": "Erlang file",
+"id": "L_ERLANG",
+"lexer": "erlang"
+},
+{
+"name": "escript",
+"short": "ESCRIPT",
+"long": "ESCRIPT file",
+"id": "L_ESCRIPT",
+"lexer": "escript"
+},
+{
+"name": "forth",
+"short": "Forth",
+"long": "Forth file",
+"id": "L_FORTH",
+"lexer": "forth"
+},
+{
+"name": "latex",
+"short": "LaTeX",
+"long": "LaTeX file",
+"id": "L_LATEX",
+"lexer": "latex"
+},
+{
+"name": "mmixal",
+"short": "MMIXAL",
+"long": "MMIXAL file",
+"id": "L_MMIXAL",
+"lexer": "mmixal"
+},
+{
+"name": "nim",
+"short": "Nim",
+"long": "Nim file",
+"id": "L_NIM",
+"lexer": "nimrod"
+},
+{
+"name": "nncrontab",
+"short": "Nncrontab",
+"long": "extended crontab file",
+"id": "L_NNCRONTAB",
+"lexer": "nncrontab"
+},
+{
+"name": "oscript",
+"short": "OScript",
+"long": "OScript source file",
+"id": "L_OSCRIPT",
+"lexer": "oscript"
+},
+{
+"name": "rebol",
+"short": "REBOL",
+"long": "REBOL file",
+"id": "L_REBOL",
+"lexer": "rebol"
+},
+{
+"name": "registry",
+"short": "registry",
+"long": "registry file",
+"id": "L_REGISTRY",
+"lexer": "registry"
+},
+{
+"name": "rust",
+"short": "Rust",
+"long": "Rust file",
+"id": "L_RUST",
+"lexer": "rust"
+},
+{
+"name": "spice",
+"short": "Spice",
+"long": "spice file",
+"id": "L_SPICE",
+"lexer": "spice"
+},
+{
+"name": "txt2tags",
+"short": "txt2tags",
+"long": "txt2tags file",
+"id": "L_TXT2TAGS",
+"lexer": "txt2tags"
+},
+{
+"name": "visualprolog",
+"short": "Visual Prolog",
+"long": "Visual Prolog file",
+"id": "L_VISUALPROLOG",
+"lexer": "visualprolog"
+},
+{
+"name": "typescript",
+"short": "TypeScript",
+"long": "TypeScript file",
+"id": "L_TYPESCRIPT",
+"lexer": "cpp"
+},
+{
+"name": "json5",
+"short": "json5",
+"long": "JSON5 file",
+"id": "L_JSON5",
+"lexer": "json"
+},
+{
+"name": "mssql",
+"short": "mssql",
+"long": "Microsoft Transact-SQL (SQL Server) file",
+"id": "L_MSSQL",
+"lexer": "mssql"
+},
+{
+"name": "gdscript",
+"short": "GDScript",
+"long": "GDScript file",
+"id": "L_GDSCRIPT",
+"lexer": "gdscript"
+},
+{
+"name": "hollywood",
+"short": "Hollywood",
+"long": "Hollywood script",
+"id": "L_HOLLYWOOD",
+"lexer": "hollywood"
+},
+{
+"name": "go",
+"short": "Go",
+"long": "Go source file",
+"id": "L_GOLANG",
+"lexer": "cpp"
+},
+{
+"name": "raku",
+"short": "Raku",
+"long": "Raku source file",
+"id": "L_RAKU",
+"lexer": "raku"
+},
+{
+"name": "toml",
+"short": "TOML",
+"long": "Tom's Obvious Minimal Language file",
+"id": "L_TOML",
+"lexer": "toml"
+},
+{
+"name": "sas",
+"short": "SAS",
+"long": "SAS file",
+"id": "L_SAS",
+"lexer": "sas"
+},
+{
+"name": "errorlist",
+"short": "ErrorList",
+"long": "ErrorList file",
+"id": "L_ERRORLIST",
+"lexer": "errorlist"
+},
+{
+"name": "escseq",
+"short": "EscapeSequence (ANSI)",
+"long": "Escape Sequence (ANSI) file",
+"id": "L_ESCSEQ",
+"lexer": "escseq"
+},
+{
+"name": "fcST",
+"short": "Structured Text",
+"long": "IEC 61131-3 Structured Text file",
+"id": "L_STTXT",
+"lexer": "fcST"
+},
+{
+"name": "ext",
+"short": "External",
+"long": "External",
+"id": "L_EXTERNAL",
+"lexer": "null"
+}
+]

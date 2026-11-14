@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>sci test</title>
+<link rel="stylesheet" href="../docs/css/sci.css">
+<style>html,body{margin:0;height:100%} #ed{position:absolute;inset:0}</style>
+</head><body><div id="ed"></div>
+<script src="../docs/npp.js"></script>
+<script type="module">
+import { ScintillaView } from '../docs/js/sciview.js';
+import { SC } from '../docs/js/sci-consts.js';
+const M = await createNppModule();
+const v = new ScintillaView(M, document.getElementById('ed'));
+window.v = v; window.SC = SC;
+v.send(SC.SCI_STYLESETFONT, 32, 0);
+v.sendStr(SC.SCI_STYLESETFONT, 32, 'Courier New');
+v.send(SC.SCI_STYLESETSIZE, 32, 10);
+v.send(SC.SCI_STYLECLEARALL);
+v.setLexer('cpp');
+v.sendStr(SC.SCI_SETKEYWORDS, 0, 'int return if else for while');
+v.send(SC.SCI_STYLESETFORE, 5, 0xFF0000); v.send(SC.SCI_STYLESETBOLD, 5, 1);
+v.send(SC.SCI_STYLESETFORE, 1, 0x008000); v.send(SC.SCI_STYLESETFORE, 2, 0x008000);
+v.send(SC.SCI_STYLESETFORE, 4, 0x0080FF); v.send(SC.SCI_STYLESETFORE, 6, 0x808080);
+v.send(SC.SCI_SETMARGINTYPEN, 0, SC.SC_MARGIN_NUMBER);
+v.send(SC.SCI_SETMARGINWIDTHN, 0, 40);
+v.send(SC.SCI_SETCARETLINEVISIBLE, 1); v.send(SC.SCI_SETCARETLINEBACK, 0xFFE8E8);
+let t = '// Hello from Scintilla in WebAssembly\n#include <stdio.h>\nint main() {\n    /* comment */\n    for (int i = 0; i < 10; i++) printf("%d ünïcødé ✓ 日本語\\n", i);\n    return 0;\n}\n';
+for (let i=0;i<200;i++) t += 'line ' + i + ' int x = ' + i + ';\n';
+v.setText(t);
+v.focus();
+window.ready = true;
+</script></body></html>

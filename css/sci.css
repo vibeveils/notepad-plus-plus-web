@@ -1,0 +1,16 @@
+/* Scintilla web widget */
+.sci-host { position: relative; overflow: hidden; }
+.sci-scroller { position: absolute; inset: 0; overflow: auto; touch-action: pan-x pan-y; outline: none; cursor: text; }
+.sci-spacer { width: 1px; height: 1px; }
+.sci-canvas { position: absolute; left: 0; top: 0; pointer-events: none; }
+.sci-input { position: absolute; left: 0; top: 0; width: 1px; height: 1em; padding: 0; border: 0; margin: 0;
+  opacity: 0; resize: none; overflow: hidden; white-space: pre; z-index: -1; font-size: 16px; }
+.sci-listbox { position: fixed; z-index: 1000; overflow-y: auto; overflow-x: hidden; background: #fff; color: #000;
+  border: 1px solid #999; box-shadow: 2px 2px 6px rgba(0,0,0,.25); white-space: pre; cursor: default; user-select: none; }
+.sci-listbox-item { padding: 0 6px; }
+.sci-listbox-item.sel { background: #0078d7; color: #fff; }
+.sci-calltip { position: fixed; z-index: 1001; border: 1px solid #767676; box-shadow: 1px 1px 4px rgba(0,0,0,.2); }
+/* touch: no native text selection, callouts or overscroll on the canvas editor */
+.sci-host { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+.sci-scroller { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.sci-input { -webkit-user-select: text; user-select: text; }

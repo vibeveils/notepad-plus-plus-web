@@ -1,0 +1,18 @@
+{
+  "name": "Notepad++ (WebAssembly)",
+  "short_name": "Notepad++",
+  "description": "Notepad++'s Scintilla editing engine compiled to WebAssembly.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#f0f0f0",
+  "theme_color": "#f0f0f0",
+  "icons": [
+    { "src": "img/npp-256.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "favicon.png", "sizes": "64x64", "type": "image/png" }
+  ],
+  "file_handlers": [
+    { "action": "./", "accept": { "text/plain": [".txt", ".log", ".ini", ".cfg", ".conf", ".md", ".csv", ".json", ".xml", ".html", ".htm", ".css", ".js", ".ts", ".c", ".cpp", ".h", ".hpp", ".cs", ".java", ".py", ".rb", ".php", ".sql", ".sh", ".bat", ".ps1", ".yml", ".yaml", ".toml", ".lua", ".go", ".rs", ".swift", ".kt", ".pl", ".r", ".tex", ".diff", ".patch", ".nfo"] } }
+  ]
+}
